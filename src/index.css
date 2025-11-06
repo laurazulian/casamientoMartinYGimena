@@ -1,9 +1,1 @@
 @import "tailwindcss";
-
-@layer utilities {
-  .bg-fondo {
-    background-image: url('/fondo.png');
-    background-repeat: repeat;
-    background-size: 400px; /* Ajustá el tamaño según el patrón */
-  }
-}
