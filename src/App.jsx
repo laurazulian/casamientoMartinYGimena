@@ -141,7 +141,7 @@ export default function App() {
 
               <div className="space-y-4 text-[#2D5E68]">
                 <p className="text-base">
-                  Solo pedimos que los adultos colaboren con una tarjeta de:
+                  Solo pedimos que los adultos colaboren con una tarjeta, los niños no pagan.
                 </p>
                 <p className="text-4xl font-light text-[#1C3D4F]">$34.500</p>
                 <div className="bg-[#E7F0EE] p-4 rounded border border-[#BFD6D1]">
