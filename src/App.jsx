@@ -8,13 +8,13 @@ export default function App() {
   const acciones = [
     {
       texto: "Confirmar asistencia",
-      link: "/confirmacion",
+      link: "https://docs.google.com/forms/d/1489ZOtR1wGfGPBzPt28I_bzfljS7yry7S78OgDc4ooc/edit?ts=690e83ca&pli=1",
       estilo:
         "bg-[#BFD6D1] hover:bg-[#AAC8C0] text-[#1C3D4F]",
     },
     {
       texto: "Canciones favoritas",
-      link: "/canciones",
+      link: "https://open.spotify.com/playlist/7tWnEK85QyPdk0IKqjcN65?si=tjD88yi4QFijEpF8MZt00g&pi=twnDpYXyR6K2k",
       estilo:
         "bg-white border-2 border-[#BFD6D1] hover:bg-[#E7F0EE] text-[#1C3D4F]",
     },
@@ -61,8 +61,12 @@ export default function App() {
           </div>
 
           <div className="px-8 py-8 pb-16 space-y-10">
-            <div className="text-center space-y-2">
-              <div className="flex justify-center items-end gap-8">
+            {/* 🔹 CEREMONIA RELIGIOSA */}
+            <div className="text-center space-y-3">
+              <p className="text-[#2D5E68] uppercase tracking-widest text-sm">
+                Ceremonia Religiosa
+              </p>
+              <div className="flex justify-center items-end gap-8 mt-2">
                 <div className="space-y-1">
                   <p className="text-6xl font-light text-[#1C3D4F]">17</p>
                   <p className="text-lg font-light text-[#2D5E68] uppercase tracking-widest">
@@ -71,16 +75,45 @@ export default function App() {
                 </div>
                 <div className="h-20 w-px bg-[#BFD6D1] mb-2"></div>
                 <div className="space-y-1">
+                  <p className="text-6xl font-light text-[#1C3D4F]">20:00</p>
+                  <p className="text-lg font-light text-[#2D5E68] uppercase tracking-widest">
+                    Horas
+                  </p>
+                </div>
+              </div>
+
+              <p className="text-[#1C3D4F] text-xl font-light mt-4">
+                Parroquia San Pedro Apóstol
+              </p>
+              <a
+                href="https://www.google.com/maps/place/Parroquia+San+Pedro+Ap%C3%B3stol+(Di%C3%B3cesis+de+San+Rafael)/@-34.6255479,-68.3106131,17z/data=!3m1!4b1!4m6!3m5!1s0x9679a96226922027:0x9f33dba5d36d1d86!8m2!3d-34.6255479!4d-68.3106131!16s%2Fg%2F11pf96k5s0?entry=ttu"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#579CA8] hover:text-[#2D5E68] text-sm underline"
+              >
+                Ver ubicación
+              </a>
+            </div>
+
+            <div className="flex items-center justify-center gap-3 py-4">
+              <div className="h-px bg-[#BFD6D1] w-32"></div>
+            </div>
+
+            {/* 🔹 FIESTA */}
+            <div className="text-center space-y-3">
+              <p className="text-[#2D5E68] uppercase tracking-widest text-sm">
+                Celebración
+              </p>
+              <div className="flex justify-center items-end gap-8 mt-2">
+                <div className="space-y-1">
                   <p className="text-6xl font-light text-[#1C3D4F]">21:30</p>
                   <p className="text-lg font-light text-[#2D5E68] uppercase tracking-widest">
                     Horas
                   </p>
                 </div>
               </div>
-            </div>
 
-            <div className="text-center space-y-3">
-              <p className="text-[#1C3D4F] text-xl font-light">
+              <p className="text-[#1C3D4F] text-xl font-light mt-4">
                 DUVAR Club de Eventos
               </p>
               <p className="text-[#2D5E68] text-base">
@@ -149,7 +182,11 @@ export default function App() {
                     Alias:
                   </p>
                   <p className="text-xl font-light text-[#1C3D4F]">
-                    pablo.zulian.1983
+                    Alias: pablo.zulian.mp
+                    <br />
+                    CVU: 0000003100075083796364
+                    <br />
+                    Nombre: Pablo Martin Zulian
                   </p>
                 </div>
               </div>
