@@ -59,7 +59,39 @@ export default function App() {
               Martín y Gimena
             </h2>
           </div>
+          <div className="flex items-center justify-center gap-3 py-4">
+              <div className="h-px bg-[#BFD6D1] w-32"></div>
+            </div>
 
+            {/* 🔹 FRASES */}
+            <div className="text-center space-y-6 px-4 py-6">
+              <p
+                className="text-2xl md:text-3xl text-[#2D5E68] italic"
+                style={{ fontFamily: "'Brush Script MT', cursive" }}
+              >
+                "Amor magister est optimus"
+              </p>
+              <p className="text-sm text-[#579CA8] font-light tracking-wide">
+                El amor es el mejor maestro
+              </p>
+              
+              <div className="pt-4">
+                <p className="text-base text-[#1C3D4F] font-light leading-relaxed">
+                  "Por encima de todo, vístanse de amor,
+                  <br />
+                  que es el vínculo perfecto."
+                </p>
+                <p className="text-sm text-[#579CA8] mt-2 italic">
+                  Colosenses 3:14
+                </p>
+              </div>
+            </div>
+
+            <div className="flex items-center justify-center gap-3 py-4">
+              <div className="h-px bg-[#BFD6D1] w-32"></div>
+            </div>
+
+            {/* 🔹 BOTONES */}
           <div className="px-8 py-8 pb-16 space-y-10">
             {/* 🔹 CEREMONIA RELIGIOSA */}
             <div className="text-center space-y-3">
@@ -75,7 +107,7 @@ export default function App() {
                 </div>
                 <div className="h-20 w-px bg-[#BFD6D1] mb-2"></div>
                 <div className="space-y-1">
-                  <p className="text-6xl font-light text-[#1C3D4F]">20:00</p>
+                  <p className="text-6xl font-light text-[#1C3D4F]">18:30</p>
                   <p className="text-lg font-light text-[#2D5E68] uppercase tracking-widest">
                     Horas
                   </p>
@@ -106,7 +138,7 @@ export default function App() {
               </p>
               <div className="flex justify-center items-end gap-8 mt-2">
                 <div className="space-y-1">
-                  <p className="text-6xl font-light text-[#1C3D4F]">21:30</p>
+                  <p className="text-6xl font-light text-[#1C3D4F]">21:00</p>
                   <p className="text-lg font-light text-[#2D5E68] uppercase tracking-widest">
                     Horas
                   </p>
