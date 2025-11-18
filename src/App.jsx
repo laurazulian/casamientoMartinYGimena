@@ -37,15 +37,31 @@ export default function App() {
             onError={() => setImageError(true)}
           />
         )}
-
+        
         {imageError && (
           <div className="absolute inset-0 bg-gradient-to-br from-[#d7e5e2] via-[#f0f5f4] to-[#bfd6d1]" />
         )}
-
+          
         <div className="absolute inset-0 bg-gradient-to-b from-white/40 via-white/30 to-white/40"></div>
-
+        
         <div className="relative z-10">
           <div className="pt-20 pb-18 px-8 text-center">
+             {/* 🔹 FRASES */}
+            <div className="text-center space-y-6 px-4 py-6">
+              <p
+                className="text-2xl md:text-3xl text-[#2D5E68] italic"
+                style={{ fontFamily: "'Brush Script MT', cursive" }}
+              >
+                "Amor magister est optimus"
+              </p>
+              <p className="text-sm text-[#579CA8] font-light tracking-wide">
+                El amor es el mejor maestro
+              </p>
+            </div>
+
+            <div className="flex items-center justify-center gap-3 py-4">
+              <div className="h-px bg-[#BFD6D1] w-32"></div>
+            </div>
             <p className="text-[#2D5E68] text-sm tracking-widest mb-6 uppercase font-light">
               Estás invitado
             </p>
@@ -65,16 +81,6 @@ export default function App() {
 
             {/* 🔹 FRASES */}
             <div className="text-center space-y-6 px-4 py-6">
-              <p
-                className="text-2xl md:text-3xl text-[#2D5E68] italic"
-                style={{ fontFamily: "'Brush Script MT', cursive" }}
-              >
-                "Amor magister est optimus"
-              </p>
-              <p className="text-sm text-[#579CA8] font-light tracking-wide">
-                El amor es el mejor maestro
-              </p>
-              
               <div className="pt-4">
                 <p className="text-base text-[#1C3D4F] font-light leading-relaxed">
                   "Por encima de todo, vístanse de amor,
