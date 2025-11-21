@@ -14,7 +14,7 @@ export default function App() {
     },
     {
       texto: "Canciones favoritas",
-      link: "https://open.spotify.com/playlist/7tWnEK85QyPdk0IKqjcN65?si=tjD88yi4QFijEpF8MZt00g&pi=twnDpYXyR6K2k",
+      link: "https://open.spotify.com/playlist/7tWnEK85QyPdk0IKqjcN65?si=ebc87c5cec6248e3",
       estilo:
         "bg-white border-2 border-[#BFD6D1] hover:bg-[#E7F0EE] text-[#1C3D4F]",
     },
